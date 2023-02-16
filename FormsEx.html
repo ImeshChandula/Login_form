@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+
+    <head>
+        <title>Forms</title>
+
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script type="text/javascript" src="functions.js"></script>
+
+    </head>
+
+<body>
+
+    <div class="d1">
+        <h2 class="a">User Input Form</h2>
+
+    <form>
+        <label>Name : </label>
+            <input type="text" name="name" placeholder="Enter your name"><br><br>
+        
+        <label>E-mail : </label>
+            <input type="text" name="E-mail" placeholder="Enter your email"><br><br>
+        
+        <label>Password : </label>
+            <input type="password" name="password"><br><br>
+        
+        <label>Gender : </label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female<br><br>
+
+        <label>Birth Day : </label>
+            <input type="date" name="date"><br><br>
+
+        <label>Qualification : </label>
+            <input type="checkbox" name="q1" value="OL">O/L
+            <input type="checkbox" name="q2" value="AL">A/L
+
+        <label class="l1">Language : </label>
+            <select name="languages">
+                <option value="C++">C++</option>
+                <option value="java">Java</option>
+            </select><br><br>
+        
+        <label>Comments : </label><br>
+            <textarea name="comments" rows="15" cols="20"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+    </div>
+    
+</body>
+
+</html>

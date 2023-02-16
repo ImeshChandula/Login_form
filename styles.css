@@ -1,0 +1,64 @@
+body{
+    background:url(img.jpg) ;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.a{
+    color:black;
+    text-align: center;
+    margin:0;
+    padding: 10px 10px 10px;
+}
+
+.d1 input[type="submit"], input[type="reset"]{
+    width: 100%;
+    margin-bottom: 20px;
+    background: red;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    height: 40px;
+}
+
+form{
+    color:whitesmoke;
+    margin:10px;
+    padding:2px;
+}
+
+.d1{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background:gray;
+}
+
+.d1 input[type="text"], input[type="password"]{
+    width: 90%;
+    background: white;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+
+.d1 textarea{
+    width: 90%;
+    height: 100px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+
+.d1 input[type="date"]{
+    width: 65%;
+}
+
+.l1{
+    margin-left: 20px;
+}
